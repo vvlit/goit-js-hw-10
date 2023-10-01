@@ -1,0 +1,42 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.breed-select {
+    margin: 30px 0 30px;
+    font-size: 20px;
+}
+
+.cat-info {
+    display: flex;
+    gap: 30px;
+    border: 1px;
+    align-items: center;
+}
+
+img {
+    max-width: 400px;
+    height: 100%;
+}
+
+.cat-text-container {
+    flex-direction: column;
+    max-width: 300px;
+    font-size: 20px;
+}
