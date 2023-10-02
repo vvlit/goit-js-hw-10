@@ -30,6 +30,7 @@ fetchBreeds()
     });
 
 function getCatInfo() {
+    refs.errorMessage.hidden = true;
     refs.loader.hidden = false;
     refs.catInfo.classList.add("visually-hidden");
     fetchCatByBreed(refs.breedSelect.value)
